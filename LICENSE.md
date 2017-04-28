@@ -1,4 +1,7 @@
  根据个人需求更改Status Bean字段 
+ 算法部分：
+ 
+ 
  private void lift(){
         ArrayList<FileBean> newLists = new ArrayList<>();
         //json中最外层集合
