@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/two_Rl"
+    >
+    <ImageView
+        android:id="@+id/leftImg"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="39dp"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="39dp"
+        android:text="产品团队"
+        android:layout_centerVertical="true"
+        android:textColor="#000000"
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
