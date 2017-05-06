@@ -36,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
         mListView = (ListView) findViewById(R.id.listV);
         findViewById(R.id.listV);
         initData();
+        String  ss = "1.新增电影原声音乐，可以听曲子了&2.开映前 1 小时，打开 App 自动显示电影票，取票更快速&3.部分影院支持购买情侣座，将会开通更多&4.部分影院支持低价爆米花，订单页来购买&5.电影票增加保存到相册，分享给朋友的功能";
+//        String dd = "ddd&aaa";
+        String[] length  =ss.split("&");
+        Log.e("dd",length.length+"");
+
     }
 
     private void initData() {
